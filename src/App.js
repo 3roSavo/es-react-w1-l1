@@ -19,8 +19,9 @@ function App() {
         </a>
         <RandomParagraph yourComment="che bello che è React!!"/>
         <ButtonComponent buttonText="CLICCAMI"/>
-        <ImageComponent />
-        <ImageComponent />
+        <ButtonComponent buttonText="Ciaonee"/>
+        <ImageComponent urlImage="http://placekitten.com/400" altImage="foto di gattino"/>
+        <ImageComponent urlImage="https://placedog.net/400" altImage="foto di cagnolino" />
       </header>
     </div>
   );
